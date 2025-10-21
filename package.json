@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Intelligent misinformation detection platform with NLP analysis",
   "author": "Parrosz",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
