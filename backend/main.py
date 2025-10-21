@@ -6,7 +6,14 @@ import uuid
 from database.crud import get_job_status, get_job_results
 from database.models import create_tables
 
-app = FastAPI(title="Hoaxalyzer API", version="1.0.0")
+# Author: Parrosz
+# Copyright (c) 2024 Parrosz. All Rights Reserved.
+
+app = FastAPI(
+    title="Hoaxalyzer API",
+    version="1.0.0",
+    description="Intelligent misinformation detection platform - Created by Parrosz"
+)
 
 # CORS configuration
 app.add_middleware(
@@ -37,7 +44,7 @@ class JobResponse(BaseModel):
 # Health check endpoint
 @app.get("/health")
 async def health_check():
-    return {"status": "healthy", "service": "Hoaxalyzer API"}
+    return {"status": "healthy", "service": "Hoaxalyzer API", "author": "Parrosz"}
 
 # Submit URL analysis
 @app.post("/api/v1/analyze/url", response_model=JobResponse)

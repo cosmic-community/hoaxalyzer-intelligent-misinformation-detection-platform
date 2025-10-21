@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Hoaxalyzer - Intelligent Misinformation Detection',
   description:
-    'Advanced NLP platform for detecting hoaxes and analyzing public sentiment on news articles and social media topics',
+    'Advanced NLP platform for detecting hoaxes and analyzing public sentiment on news articles and social media topics. Created by Parrosz.',
   keywords: [
     'hoax detection',
     'misinformation',
@@ -17,6 +17,8 @@ export const metadata: Metadata = {
     'fact checking',
     'Indonesian news',
   ],
+  authors: [{ name: 'Parrosz' }],
+  creator: 'Parrosz',
 }
 
 export default function RootLayout({

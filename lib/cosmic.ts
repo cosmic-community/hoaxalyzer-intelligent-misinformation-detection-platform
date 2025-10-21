@@ -1,5 +1,8 @@
 import { createBucketClient } from '@cosmicjs/sdk'
 
+// Author: Parrosz
+// Copyright (c) 2024 Parrosz. All Rights Reserved.
+
 export const cosmic = createBucketClient({
   bucketSlug: process.env.COSMIC_BUCKET_SLUG as string,
   readKey: process.env.COSMIC_READ_KEY as string,

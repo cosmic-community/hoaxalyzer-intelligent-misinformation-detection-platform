@@ -2,6 +2,9 @@
   "name": "hoaxalyzer",
   "version": "1.0.0",
   "description": "Intelligent misinformation detection platform with NLP analysis",
+  "author": "Parrosz",
+  "license": "UNLICENSED",
+  "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
