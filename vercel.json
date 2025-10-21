@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "COSMIC_BUCKET_SLUG": "@cosmic_bucket_slug",
+    "COSMIC_READ_KEY": "@cosmic_read_key",
+    "COSMIC_WRITE_KEY": "@cosmic_write_key",
+    "BACKEND_API_URL": "@backend_api_url"
+  }
+}

@@ -1,0 +1,14 @@
+// .dockerignore
+node_modules
+.next
+.git
+.env
+.env.local
+__pycache__
+*.pyc
+venv
+ENV
+.vscode
+.idea
+*.log
+.DS_Store
